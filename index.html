@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guitar Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>GuitarShop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Electric">Electric</a></li>
+                <li><a href="#Acoustic">Acoustic</a></li>
+                <li><a href="#Bass">Bass</a></li>
+                <li><a href="#Amps">Amps</a></li>
+                <li><a href="#Effects">Effects</a></li>
+                <li><a href="#Accessories">Accessories</a></li>
+                <li><a href="#Drums">Drums</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#">My Account</a>
+            <a href="#" id="basket-link">Basket</a>
+            <div class="basket-list"></div> <!-- Этот блок будет обновляться с товарами -->
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="banner-section">
+            <div class="banner">
+                <img src="/Guitar/img/Banner.jpg" alt="Gibson Les Paul">
+                <div class="banner-info">
+                    <h2>Gibson Les Paul - Pick Your Top</h2>
+                    <p>Individually Photographed and Weighed</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+            <div id="Electric" class="banner">
+                <img src="/Guitar/img/Banner2.jpg" alt="Yamaha THR Amps">
+                <div class="banner-info">
+                    <h2>Yamaha THR Amps</h2>
+                    <p>Up to £75 Cashback</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Electric" class="featured-products">
+            <h2>Electric Guitars</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/g1.jpg" alt="Guitar 1">
+                    <h3>Fender Stratocaster</h3>
+                    <h5>Guitar</h5>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/g2.jpg" alt="Guitar 2">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/g3.jpg" alt="Guitar 3">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/g4.jpg" alt="Guitar 4">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Acoustic" class="featured-products">
+            <h2>Acoustic Guitars</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/ag1.jpg" alt="Guitar 5">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/ag2.jpg" alt="Guitar 6">
+                    <h3>Fender Stratocaster</h3>
+                    <h5>Guitar</h5>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/ag3.jpg" alt="Guitar 7">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/ag4.jpg" alt="Guitar 8">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Bass" class="featured-products">
+            <h2>Bass Guitars</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/bass1.jpg" alt="Guitar 9">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/bass2.jpg" alt="Guitar 10">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/bass3.jpg" alt="Guitar 11">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/bass4.jpg" alt="Guitar 12">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Amps" class="featured-products">
+            <h2>Amps</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/amps1.jpg" alt="Guitar 13">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/amps2.jpg" alt="Guitar 14">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/amps3.jpg" alt="Guitar 15">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/amps4.jpg" alt="Guitar 16">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Effects" class="featured-products">
+            <h2>Effects</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/eff1.jpg" alt="Guitar 14">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/eff2.jpg" alt="Guitar 15">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/eff3.jpg" alt="Guitar 16">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/eff4.jpg" alt="Guitar 17">
+                    <h3>Fender Stratocaster</h3>
+                    <p></p>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Accessories" class="featured-products">
+            <h2>Accessories</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/acc1.jpg" alt="Guitar 14">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/acc2.jpg" alt="Guitar 15">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/acc3.jpg" alt="Guitar 16">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/acc4.jpg" alt="Guitar 17">
+                    <h3>Fender Stratocaster</h3>
+                    <p></p>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Drums" class="featured-products">
+            <h2>Drums</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/dr1.jpg" alt="Guitar 14">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/dr2.jpg" alt="Guitar 15">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/dr3.jpg" alt="Guitar 16">
+                    <h3>Fender Stratocaster</h3>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+                <div class="product">
+                    <img width={100} height={200} src="/Guitar/img/dr4.jpg" alt="Guitar 17">
+                    <h3>Fender Stratocaster</h3>
+                    <p></p>
+                    <p>$1200</p>
+                    <a href="#" class="btn">View</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GuitarShop. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montaga", serif;
+  background-color: #f4f4f4;
+  color: #000000;
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 10px 20px;
+}
+
+header .logo h1 {
+  color: #fff;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .user-actions a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.banner-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner img {
+  width: 600px;
+  height: 300px;
+}
+
+.banner-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.banner-info h2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.banner-info p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.banner-info .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f68b1e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.featured-products {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.featured-products h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product {
+  background-color: #f4f4f4;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product .btn {
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.basket-list {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  width: 300px;
+  display: none; /* По умолчанию скрыта */
+}
+
+.basket-list .basket-item {
+  margin-bottom: 10px;
+}
+
+.basket-list button {
+  background-color: #f68b1e;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
